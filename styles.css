@@ -3,10 +3,11 @@
     flex-wrap: wrap;
     gap: 5px;
     width: 100%;
+    min-height: 960px;
 }
 
 .square {
-    width: calc((100% / 16) - (5px * 15/16));
+    flex: 1 1 calc((100% / 17));
     height: 50px;
     display: flex;
     background-color: whitesmoke;
