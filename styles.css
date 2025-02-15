@@ -1,0 +1,17 @@
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    width: 100%;
+}
+
+.square {
+    width: calc((100% / 16) - (5px * 15/16));
+    height: 50px;
+    display: flex;
+    background-color: whitesmoke;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
